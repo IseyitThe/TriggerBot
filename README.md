@@ -2,7 +2,7 @@
 1.16.5 Fabric Triggerbot mod
 Minecraft TriggerBot undetectable
 
-Credit Lasnik
+Credit https://github.com/lasnikprogram/GhostTriggerbotter
 
 Whats change?
 
