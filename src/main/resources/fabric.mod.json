@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "sprint-sprintmod",
+  "version": "${version}",
+
+  "name": "Sprintmod",
+  "description": "Adds sprint mod",
+  "authors": [
+    "Seyit",
+    "Lasnik" 
+  ],
+  "contact": {
+    "discord": "Seyit#2650"
+  },
+
+  "license": "GPLv3",
+  "icon": "assets/sprint/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.seyit.sprint.Sprintmod"
+    ],
+    "modmenu": [
+      "me.seyit.sprint.util.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "sprint-sprintmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "custom": {
+    "modmenu:clientsideOnly": true
+  }
+}
